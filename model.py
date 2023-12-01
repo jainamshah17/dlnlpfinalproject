@@ -20,7 +20,7 @@ class EfficientDecoder(tf.keras.Model):
                            vocab_size = target_vocab_size,
                            dropout_rate = dropout_rate)
 
-    self.final_layer = tf.keras.layers.Dense(target_vocab_size, activation = 'softmax')
+    self.final_layer = tf.keras.layers.Dense(target_vocab_size)
 
   def call(self, inputs):
     # To use a Keras model with `.fit` you must pass all your inputs in the
