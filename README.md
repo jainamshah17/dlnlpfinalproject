@@ -1,4 +1,4 @@
-# dlnlpfinalproject
+# DL-NLP Final Project
 Code_and_Notebooks folder contains all the required code for pre-processing, training, and evaluating our model.
 We recommend the following order to execute notebooks:
 1) Extract and Save Image Encodings - This will store all image encodings from EfficientNetB4 model into numpy arrays on your disk.
